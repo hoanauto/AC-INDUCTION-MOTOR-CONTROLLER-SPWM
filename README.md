@@ -2,6 +2,8 @@
 ## ĐỒ ÁN TỐT NGHIỆP_NGUYỄN TRỌNG HOAN_06/2025 Gồm có `File thuyết minh`, `các phiên bản code`
 
 ### LINK TỔNG: https://drive.google.com/drive/u/0/folders/13GII5-7eNStuxl2eF6Wzm4rQJNyuKq-C
+![image](https://github.com/user-attachments/assets/a73bfbfd-27bf-44d1-a908-74815127b3b5)
+![image](https://github.com/user-attachments/assets/945c577b-f9ac-4ce2-853d-a83fc339ffc2)
 
 ## 🔍 Project Overview 
 The main objective of this research is to design and develop a low-cost control circuit for a three-phase asynchronous (AC induction) motor, integrating a speed sensor to regulate PWM signals. This aims to improve the speed control and torque response of electric motorcycles, ultimately enhancing the smoothness and efficiency of vehicle operation.
