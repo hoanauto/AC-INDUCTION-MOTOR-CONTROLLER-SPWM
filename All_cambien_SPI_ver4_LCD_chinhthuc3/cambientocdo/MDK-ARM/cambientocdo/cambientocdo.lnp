@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"cambientocdo\startup_stm32f103xb.o"
+"cambientocdo\main.o"
+"cambientocdo\stm32f1xx_it.o"
+"cambientocdo\stm32f1xx_hal_msp.o"
+"cambientocdo\stm32f1xx_hal_gpio_ex.o"
+"cambientocdo\stm32f1xx_hal_tim.o"
+"cambientocdo\stm32f1xx_hal_tim_ex.o"
+"cambientocdo\stm32f1xx_hal.o"
+"cambientocdo\stm32f1xx_hal_rcc.o"
+"cambientocdo\stm32f1xx_hal_rcc_ex.o"
+"cambientocdo\stm32f1xx_hal_gpio.o"
+"cambientocdo\stm32f1xx_hal_dma.o"
+"cambientocdo\stm32f1xx_hal_cortex.o"
+"cambientocdo\stm32f1xx_hal_pwr.o"
+"cambientocdo\stm32f1xx_hal_flash.o"
+"cambientocdo\stm32f1xx_hal_flash_ex.o"
+"cambientocdo\stm32f1xx_hal_exti.o"
+"cambientocdo\system_stm32f1xx.o"
+--strict --scatter "cambientocdo\cambientocdo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "cambientocdo.map" -o cambientocdo\cambientocdo.axf

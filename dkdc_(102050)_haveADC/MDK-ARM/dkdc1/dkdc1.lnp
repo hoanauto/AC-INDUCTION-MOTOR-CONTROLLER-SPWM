@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"dkdc1\startup_stm32f103xb.o"
+"dkdc1\main.o"
+"dkdc1\stm32f1xx_it.o"
+"dkdc1\stm32f1xx_hal_msp.o"
+"dkdc1\stm32f1xx_hal_gpio_ex.o"
+"dkdc1\stm32f1xx_hal_adc.o"
+"dkdc1\stm32f1xx_hal_adc_ex.o"
+"dkdc1\stm32f1xx_hal.o"
+"dkdc1\stm32f1xx_hal_rcc.o"
+"dkdc1\stm32f1xx_hal_rcc_ex.o"
+"dkdc1\stm32f1xx_hal_gpio.o"
+"dkdc1\stm32f1xx_hal_dma.o"
+"dkdc1\stm32f1xx_hal_cortex.o"
+"dkdc1\stm32f1xx_hal_pwr.o"
+"dkdc1\stm32f1xx_hal_flash.o"
+"dkdc1\stm32f1xx_hal_flash_ex.o"
+"dkdc1\stm32f1xx_hal_exti.o"
+"dkdc1\stm32f1xx_hal_tim.o"
+"dkdc1\stm32f1xx_hal_tim_ex.o"
+"dkdc1\system_stm32f1xx.o"
+--strict --scatter "dkdc1\dkdc1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "dkdc1.map" -o dkdc1\dkdc1.axf
